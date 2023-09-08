@@ -61,7 +61,7 @@
         <div class="collapse navbar-collapse me-3" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#home">HOME</a>
+              <a class="nav-link active" href="#home">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#service">SERVICES</a>
@@ -100,7 +100,7 @@
       <div class="offcanvas-body">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
+              <a class="nav-link active" href="#">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">SERVICES</a>
@@ -142,14 +142,14 @@
         </div>
         <div class="d-flex ps-2 mb-3">
           <div class="me-2">
-            <a href="" class="btn btn-purple">
+            <a href="./signup" class="btn btn-purple">
               <i class="fas fa-user-pen text-white pe-1"></i>
               Sign Up
             </a>
           </div>
           <div>
-            <button class="btn btn-outline-purple">
-              <i class="fas fa-unlock-keyhole text-purple pe-1"></i>
+            <button class="btn btn-outline-purple" data-bs-target="#loginModal" data-bs-toggle="modal">
+              <i class="fas fa-unlock-keyhole pe-1"></i>
               Sign In
             </button>
           </div>
@@ -188,15 +188,41 @@
        I want to offer a range of educational services including lesson plan templates, KPI templates, teacher training, education consulting, student skill preparation programs and standardized test preparation programs. However I will begin by providing lesson plan templates. I will also share some drafts of website pages related to my services.
     </p>
     <div class="row m-auto" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-      <div class="col-md-4 offset-md-4">
+      <div class="col-md-4 mb-3">
         <a href="">
           <div class="service-card">
-            <img src="./assets/img/lesson-plan.jpeg" class="img-card" alt="">
+            <img src="./assets/img/template.png" class="" width="60px" alt="">
             <div class="card-text">
               <h5 class="text-center mb-0 pb-0">
-                Lesson Plan Templates
+                Templates
               </h5>
-              <span class="text-center">(SERVICE)</span>
+              <small class="text-center d-block mt-2 text-secondary">To Help You To Keep Data in Database.</small>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 mb-3">
+        <a href="">
+          <div class="service-card">
+            <img src="./assets/img/training.png" class="" width="60px" alt="">
+            <div class="card-text">
+              <h5 class="text-center mb-0 pb-0">
+                Training
+              </h5>
+              <small class="text-center d-block mt-2 text-secondary">To Help You To Improve Personal Skills.</small>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 mb-3">
+        <a href="">
+          <div class="service-card">
+            <img src="./assets/img/edu.png" class="" width="70px" alt="">
+            <div class="card-text">
+              <h5 class="text-center mb-0 pb-0">
+                Education Consulting
+              </h5>
+              <small class="text-center d-block mt-2 text-secondary">To Help You To Discuss For Education.</small>
             </div>
           </div>
         </a>
