@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.cdnfonts.com/css/source-sans-pro');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 *{
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: Source Sans Pro; */
@@ -207,6 +208,10 @@ a{
     box-shadow: 1px 2px 3px #D7A1F9;
     border-radius: 10px;
 }
+.service-card:hover{
+    transform: scale(0.9);
+    transition-duration: .6s;
+}
 .card-text h5{
     text-transform: uppercase;
     margin-top: 20px;
@@ -315,9 +320,6 @@ footer p a:hover{
 }
 /* footer */
 
-
-
-
 @media only screen and (max-width:992px){
     .divider{
         padding-bottom: 10px;
@@ -405,4 +407,17 @@ footer p a:hover{
         font-size: 20px;
         border-radius: 50%;
     }
+}
+
+
+/* other page common style */
+.banner{
+    background: radial-gradient(circle, rgba(238,147,249,1) 0%, rgba(207,28,255,1) 100%);
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}   
+.banner h1{
+    font-family: 'Raleway', sans-serif;
 }
