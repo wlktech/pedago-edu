@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: Source Sans Pro; */
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* primary color */
+.bg-purple{
+    background-color: #A020F0;
+}
+.text-purple{
+    color: #A020F0;
+}
+.btn-outline-purple{
+    background-color: transparent;
+    border: 1px solid #A020F0;
+    color: #A020F0;
+}
+.btn-outline-purple:hover{
+    background-color: #A020F0;
+    color: #fff;
+}
+.btn-purple{
+    background-color: #A020F0;
+    border: none;
+    color: #fff;
+}
+.btn-purple:hover{
+    background-color: #A020F0;
+    box-shadow: 1px 2px 3px #D7A1F9;
+    color: #fff;
+}
+
+/* primary color */
+.dropdown-menu{
+    opacity: 0;
+}
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 2px 3px #D7A1F9;
+    transform: scale(1);
+    transition: .6s all ease;
+}
+.nav-item .nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color:#A020F0 !important;
+}
+.navbar-toggler:hover{
+    border: none;
+    box-shadow: none;
+}
+
+/* login */
+.login-header{
+   font-family: 'Montserrat', sans-serif;
+}
+.welcome-header{
+    font-family: 'Montserrat', sans-serif;
+    color: #A020F0;
+ }
+.login-icon{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.loginModal{
+    background-color: #faf2ff;
+    border: none;
+    border-radius: 2px;
+}
+.label{
+    font-family: 'Montserrat', sans-serif;
+}
+.input{
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    box-shadow: 1px 2px 3px #D7A1F9;
+    font-size: 14px;
+    height: 50px;
+}
+.input:focus{
+    box-shadow: 1px 2px 3px #D7A1F9;
+}
+.login-btn{
+    width: 100%;
+    height: 50px;
+}
+.input-password{
+    position: relative;
+}
+.eye-icon{
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    cursor: pointer;
+}
+/* Scroll to top button for index.html*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #faf2ff; /* Set a background color */
+    color: #A020F0; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50% 10%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+#myBtn:hover {
+    background-color: #D7A1F9; /* Add a dark-grey background on hover */
+    color: #fff;
+}
+/* Scroll to top button for room.html*/
+
+
+/* homebanner */
+.responsive{
+    position: relative;
+}
+.left_arrow{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    z-index: 1;
+    background-color: rgba(250, 242, 255, 0.3);
+    color: #A020F0;
+    padding: 20px;
+    cursor: pointer;
+    /* border-radius: 50%; */
+    font-size: 20px;
+}
+.right_arrow{
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    background-color: rgba(250, 242, 255, 0.3);
+    color: #A020F0;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    /* border-radius: 10%; */
+}
+.right_arrow:hover, .left_arrow:hover{
+    background-color: #A020F0;
+    color: #fff;
+}
+/* slick btn */
+.slick-dots li button:before{
+    width: 12px;
+    height: 12px;
+    background-color: #A020F0;
+    border-radius: 50%;
+    opacity: 0.5;
+    border: 3px solid #f0f0f0;
+    box-shadow: 1px 2px 3px grey;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: 1;
+    background-color: #A020F0;
+}
+
+.slick-dots{
+    bottom: 20px !important;
+    
+}
+/* slick btn */
+/* homebanner */
+
+/* service */
+.divider{
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+.underline{
+    border: 4px solid #A020F0;
+    width: 100px;
+    border-radius: 5px;
+}
+.service-para{
+    padding-bottom: 50px;
+}
+.service-card{
+    width: 100%;
+    height: 240px;
+    border-radius: 30px;
+    background-color: #D7A1F9;
+    color: #A020F0;
+    position: relative;
+    margin-top: 30px;
+}
+.service-card:hover{
+    box-shadow: 1px 2px 3px #9d00ff;
+}
+.img-card{
+    width:80%;
+    position: absolute;
+    top: -30%;
+    left: 10%;
+    border-radius: 10px;
+}
+.card-text{
+    position: absolute;
+    bottom: 30px;
+    left: 20%;
+    color: #fff;
+}
+/* service */
+
+/* blog */
+.left_arrow1{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    z-index: 1;
+    background-color: rgba(250, 242, 255, 0.3);
+    color: #A020F0;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: 1px 2px 3px #D7A1F9;
+}
+.right_arrow1{
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    background-color: rgba(250, 242, 255, 0.3);
+    color: #A020F0;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 3px #D7A1F9;
+}
+.right_arrow1:hover, .left_arrow1:hover{
+    background-color: #A020F0;
+    color: #fff;
+}
+.blog-title{
+    font-family: Source Sans Pro;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.blog-category{
+    color: #9d00ff;
+    font-family: 'Montserrat', sans-serif;
+}
+.blog-preview-text{
+    font-family: Source Sans Pro;
+    margin-top: 10px;
+}
+/* blog */
+
+/* event */
+.v-line{
+    background-color: #c86fff;
+    padding: 4px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+#event, #blog, #service, #contact{
+    /* background: rgb(249,249,249);
+    background: linear-gradient(274deg, rgba(249,249,249,1) 0%, rgba(252,241,255,1) 100%); */
+    background: linear-gradient(180deg, #f1e3fa 0%, #ffffff 100%);
+}
+.img-container{
+    overflow: hidden;
+}
+.img-container img:hover{
+    transform: scale(1.5);
+    transition-duration: .6s;
+}
+/* event */
+
+/* contact */
+#sendMail input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #c86fff;
+}
+
+#sendMail textarea{
+    border: none;
+    border: 1px solid #c86fff;
+}
+#sendMail input:focus, #sendMail textarea:focus{
+    box-shadow: 1px 2px 3px #9d00ff;
+}
+
+/* footer */
+
+footer{
+    padding-top: 13px;
+    padding-bottom: 1px;
+    background-color: #A020F0;
+    color: white;
+}
+footer p{
+    font-family: Source Sans Pro !important;
+}
+footer p a{
+    color: #fff;
+}
+footer p a:hover{
+    color:#faf2ff;
+}
+/* footer */
+
+
+
+
+@media only screen and (max-width:992px){
+    .divider{
+        padding-bottom: 10px;
+    }
+    .left_arrow{
+        position: absolute;
+        top: 40%;
+        left: 20px;
+        z-index: 1;
+        background-color: rgba(250, 242, 255, 0.3);
+        color: #A020F0;
+        padding: 10px;
+        cursor: pointer;
+        /* border-radius: 50%; */
+        font-size: 20px;
+    }
+    .right_arrow{
+        position: absolute;
+        top: 40%;
+        right: 20px;
+        background-color: rgba(250, 242, 255, 0.3);
+        color: #A020F0;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        /* border-radius: 10%; */
+    }
+    .slick-dots li button:before{
+        /* width: 4px;
+        height: 4px; */
+        background-color: #A020F0;
+        border-radius: 50%;
+        opacity: 0.5;
+        border: 2px solid #f0f0f0;
+        box-shadow: 1px 2px 3px grey;
+    }
+    #service-container{
+        padding-bottom: 50px;
+    }
+
+    .left_arrow1{
+        position: absolute;
+        top: 40%;
+        left: 20px;
+        z-index: 1;
+        background-color: rgba(250, 242, 255, 0.3);
+        color: #A020F0;
+        padding: 10px;
+        cursor: pointer;
+        /* border-radius: 50%; */
+        font-size: 20px;
+    }
+    .right_arrow1{
+        position: absolute;
+        top: 40%;
+        right: 20px;
+        background-color: rgba(250, 242, 255, 0.3);
+        color: #A020F0;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        /* border-radius: 10%; */
+    }
+
+    .left_arrow2{
+        position: absolute;
+        top: 40%;
+        left: 20px;
+        z-index: 1;
+        background-color: rgba(250, 242, 255, 0.3);
+        color: #A020F0;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+    .right_arrow2{
+        position: absolute;
+        top: 40%;
+        right: 20px;
+        background-color: rgba(250, 242, 255, 0.3);
+        color: #A020F0;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 50%;
+    }
+}
