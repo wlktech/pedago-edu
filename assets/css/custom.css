@@ -117,6 +117,7 @@ a{
     padding: 15px; /* Some padding */
     border-radius: 50% 10%; /* Rounded corners */
     font-size: 18px; /* Increase font size */
+    box-shadow: 1px 2px 3px #c86fff;
 }
 #myBtn:hover {
     background-color: #D7A1F9; /* Add a dark-grey background on hover */
