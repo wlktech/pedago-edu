@@ -10,6 +10,18 @@ function loginPwdView() {
         y.classList.replace("fa-eye-slash", "fa-eye");
     }
 }
+
+function loginPwdView1() {
+    var x = document.getElementById("password1");
+    var y = document.getElementById("eye1");
+    if (x.type === "password") {
+        x.type = "text";
+        y.classList.replace("fa-eye", "fa-eye-slash");
+    } else {
+        x.type = "password";
+        y.classList.replace("fa-eye-slash", "fa-eye");
+    }
+}
 // password view codes
 
 
@@ -193,4 +205,4 @@ function topFunction() {
 // aos
 AOS.init({
     duration: 1000, // Set the duration to 1000 milliseconds (1 second)
-  });
+});
