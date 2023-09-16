@@ -11,6 +11,10 @@
     color: #9d00ff !important;
     font-weight: 800;
 }
+.paginate-active{
+    background-color: #9d00ff !important;
+    color: #fff;
+}
 a{
     text-decoration: none;
 }
@@ -420,4 +424,12 @@ footer p a:hover{
 }   
 .banner h1{
     font-family: 'Raleway', sans-serif;
+}
+.youtube-text-box{
+    height: 100px;
+    /* background-color: #faf2ff; */
+    
+}
+.youtube-text-box h6, .youtube-text-box p, .youtube-text-box span{
+    font-family: Source Sans Pro;
 }
