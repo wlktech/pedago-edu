@@ -433,3 +433,11 @@ footer p a:hover{
 .youtube-text-box h6, .youtube-text-box p, .youtube-text-box span{
     font-family: Source Sans Pro;
 }
+.blog-text-box h3{
+    font-family: Source Sans Pro;
+    font-weight: 600;
+}
+.blog-text-box p{
+    text-align: justify;
+    line-height: 30px;
+}
