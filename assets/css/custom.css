@@ -441,3 +441,6 @@ footer p a:hover{
     text-align: justify;
     line-height: 30px;
 }
+.template h4, .template a, .template table, .template th, .template td{
+    font-family: Source Sans Pro;
+}

@@ -206,3 +206,36 @@ function topFunction() {
 AOS.init({
     duration: 1000, // Set the duration to 1000 milliseconds (1 second)
 });
+
+
+
+//full screen codes
+let btn = document.getElementById("btn");
+
+btn.addEventListener("click", () => {
+    if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement) {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        }
+        btn.classList.remove("fa-arrows-to-circle");
+        btn.classList.add("fa-expand");
+    } else {
+        if (document.documentElement.requestFullscreen) {
+            document.documentElement.requestFullscreen();
+        } else if (document.documentElement.webkitRequestFullscreen) {
+            document.documentElement.webkitRequestFullscreen();
+        } else if (document.documentElement.mozRequestFullScreen) {
+            document.documentElement.mozRequestFullScreen();
+        } else if (document.documentElement.msRequestFullscreen) {
+            document.documentElement.msRequestFullscreen();
+        }
+        btn.classList.add("fa-arrows-to-circle");
+        btn.classList.remove("fa-expand");
+    }
+});
